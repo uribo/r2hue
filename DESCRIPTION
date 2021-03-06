@@ -1,0 +1,29 @@
+Package: r2hue
+Type: Package
+Title: 'Hue API' for R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shinya",
+           family = "Uryu",
+           role = c("aut", "cre"),
+           email = "suika1127@gmail.com",
+           comment = c(ORCID = "0000-0002-0493-6186"))
+Maintainer: Shinya Uryu <suika1127@gmail.com>
+Description: Functions for manipulating the 'Hue API' from R. 
+  This also makes it possible to manipulate 'Hue' by tying it to processes in R.
+Imports:
+  cli,
+  colorinfo,
+  glue,
+  httr,
+  jsonlite,
+  later,
+  purrr,
+  rlang
+Remotes:
+  uribo/colorinfo
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
